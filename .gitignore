@@ -1,0 +1,16 @@
+
+# python
+*.pyc
+/clics.egg-info
+/.eggs
+.coverage
+
+# log
+*.log
+
+# clics data
+/.ssh
+/tmp
+
+# exe
+*.exe
