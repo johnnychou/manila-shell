@@ -25,8 +25,8 @@ class CoreCommand(cmd.Cmd, object):
         for key, command in self.commands.iteritems():
             if (key == cmd):
                 return command
-        else:
-            print("Not Such Command!!!")
+            else:
+                print("No Such Command!!!")
 
     def do_exit(self, args):
         """Exits from the console"""
